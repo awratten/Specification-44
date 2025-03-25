@@ -1,1 +1,550 @@
-HERE
+Processing: Weather/climat01.TXT
+Climate Zone 1:
+Supplied TCDH: 15770
+Calculated TCDH: 15812.425749999993
+Difference: 42.42574999999306
+Absolute Error: 42.42574999999306
+Percentage Error: 0.27%
+
+Processing: Weather/climat02.TXT
+Climate Zone 2:
+Supplied TCDH: 16540
+Calculated TCDH: 16730.485083333337
+Difference: 190.48508333333666
+Absolute Error: 190.48508333333666
+Percentage Error: 1.15%
+
+Processing: Weather/climat03.TXT
+Climate Zone 3:
+Supplied TCDH: 14634
+Calculated TCDH: 14552.588124999997
+Difference: -81.41187500000342
+Absolute Error: 81.41187500000342
+Percentage Error: 0.56%
+
+Processing: Weather/climat04.TXT
+Climate Zone 4:
+Supplied TCDH: 4810
+Calculated TCDH: 4864.598333333331
+Difference: 54.59833333333063
+Absolute Error: 54.59833333333063
+Percentage Error: 1.14%
+
+Processing: Weather/climat05.TXT
+Climate Zone 5:
+Supplied TCDH: 6392
+Calculated TCDH: 6457.378333333328
+Difference: 65.37833333332765
+Absolute Error: 65.37833333332765
+Percentage Error: 1.02%
+
+Processing: Weather/climat06.TXT
+Climate Zone 6:
+Supplied TCDH: 13149
+Calculated TCDH: 13278.268375
+Difference: 129.26837499999965
+Absolute Error: 129.26837499999965
+Percentage Error: 0.98%
+
+Processing: Weather/climat07.TXT
+Climate Zone 7:
+Supplied TCDH: 6717
+Calculated TCDH: 6760.521999999999
+Difference: 43.521999999999025
+Absolute Error: 43.521999999999025
+Percentage Error: 0.65%
+
+Processing: Weather/climat08.TXT
+Climate Zone 8:
+Supplied TCDH: 7291
+Calculated TCDH: 7363.337208333329
+Difference: 72.33720833332882
+Absolute Error: 72.33720833332882
+Percentage Error: 0.99%
+
+Processing: Weather/climat09.TXT
+Climate Zone 9:
+Supplied TCDH: 4483
+Calculated TCDH: 4502.888875
+Difference: 19.888874999999643
+Absolute Error: 19.888874999999643
+Percentage Error: 0.44%
+
+Processing: Weather/climat10.TXT
+Climate Zone 10:
+Supplied TCDH: 2228
+Calculated TCDH: 2244.649999999999
+Difference: 16.64999999999918
+Absolute Error: 16.64999999999918
+Percentage Error: 0.75%
+
+Processing: Weather/climat11.TXT
+Climate Zone 11:
+Supplied TCDH: 1309
+Calculated TCDH: 1307.0919999999976
+Difference: -1.9080000000024029
+Absolute Error: 1.9080000000024029
+Percentage Error: 0.15%
+
+Processing: Weather/climat12.TXT
+Climate Zone 12:
+Supplied TCDH: 6365
+Calculated TCDH: 6340.865
+Difference: -24.13500000000022
+Absolute Error: 24.13500000000022
+Percentage Error: 0.38%
+
+Processing: Weather/climat13.TXT
+Climate Zone 13:
+Supplied TCDH: 6084
+Calculated TCDH: 6043.89
+Difference: -40.10999999999967
+Absolute Error: 40.10999999999967
+Percentage Error: 0.66%
+
+Processing: Weather/climat14.TXT
+Climate Zone 14:
+Supplied TCDH: 1039
+Calculated TCDH: 1058.157083333333
+Difference: 19.15708333333305
+Absolute Error: 19.15708333333305
+Percentage Error: 1.84%
+
+Processing: Weather/climat15.TXT
+Climate Zone 15:
+Supplied TCDH: 2802
+Calculated TCDH: 2799.6875
+Difference: -2.3125
+Absolute Error: 2.3125
+Percentage Error: 0.08%
+
+Processing: Weather/climat16.TXT
+Climate Zone 16:
+Supplied TCDH: 5132
+Calculated TCDH: 5158.516750000002
+Difference: 26.516750000001593
+Absolute Error: 26.516750000001593
+Percentage Error: 0.52%
+
+Processing: Weather/climat17.TXT
+Climate Zone 17:
+Supplied TCDH: 1466
+Calculated TCDH: 1474.6054166666665
+Difference: 8.605416666666542
+Absolute Error: 8.605416666666542
+Percentage Error: 0.59%
+
+Processing: Weather/climat18.TXT
+Climate Zone 18:
+Supplied TCDH: 2801
+Calculated TCDH: 2823.876999999998
+Difference: 22.876999999998134
+Absolute Error: 22.876999999998134
+Percentage Error: 0.82%
+
+Processing: Weather/climat19.TXT
+Climate Zone 19:
+Supplied TCDH: 9580
+Calculated TCDH: 9533.757291666663
+Difference: -46.24270833333685
+Absolute Error: 46.24270833333685
+Percentage Error: 0.48%
+
+Processing: Weather/climat20.TXT
+Climate Zone 20:
+Supplied TCDH: 4678
+Calculated TCDH: 4712.314999999996
+Difference: 34.31499999999596
+Absolute Error: 34.31499999999596
+Percentage Error: 0.73%
+
+Processing: Weather/climat21.TXT
+Climate Zone 21:
+Supplied TCDH: 2416
+Calculated TCDH: 2421.613416666667
+Difference: 5.613416666667035
+Absolute Error: 5.613416666667035
+Percentage Error: 0.23%
+
+Processing: Weather/climat22.TXT
+Climate Zone 22:
+Supplied TCDH: 1259
+Calculated TCDH: 1239.2882499999992
+Difference: -19.711750000000848
+Absolute Error: 19.711750000000848
+Percentage Error: 1.57%
+
+Processing: Weather/climat23.TXT
+Climate Zone 23:
+Supplied TCDH: 833
+Calculated TCDH: 837.3319999999991
+Difference: 4.331999999999084
+Absolute Error: 4.331999999999084
+Percentage Error: 0.52%
+
+Processing: Weather/climat24.TXT
+Climate Zone 24:
+Supplied TCDH: 2863
+Calculated TCDH: 2881.5999999999995
+Difference: 18.599999999999454
+Absolute Error: 18.599999999999454
+Percentage Error: 0.65%
+
+Processing: Weather/climat25.TXT
+Climate Zone 25:
+Supplied TCDH: 79
+Calculated TCDH: 75.00024999999991
+Difference: -3.999750000000091
+Absolute Error: 3.999750000000091
+Percentage Error: 5.06%
+
+Processing: Weather/climat26.TXT
+Climate Zone 26:
+Supplied TCDH: 451
+Calculated TCDH: 454.8149999999999
+Difference: 3.814999999999884
+Absolute Error: 3.814999999999884
+Percentage Error: 0.85%
+
+Processing: Weather/climat27.TXT
+Climate Zone 27:
+Supplied TCDH: 6300
+Calculated TCDH: 6321.720333333335
+Difference: 21.720333333334565
+Absolute Error: 21.720333333334565
+Percentage Error: 0.34%
+
+Processing: Weather/climat28.TXT
+Climate Zone 28:
+Supplied TCDH: 3917
+Calculated TCDH: 3956.2743749999995
+Difference: 39.27437499999951
+Absolute Error: 39.27437499999951
+Percentage Error: 1.00%
+
+Processing: Weather/climat29.TXT
+Climate Zone 29:
+Supplied TCDH: 12144
+Calculated TCDH: 12219.722083333332
+Difference: 75.7220833333322
+Absolute Error: 75.7220833333322
+Percentage Error: 0.62%
+
+Processing: Weather/climat30.TXT
+Climate Zone 30:
+Supplied TCDH: 26975
+Calculated TCDH: 26996.331166666667
+Difference: 21.33116666666683
+Absolute Error: 21.33116666666683
+Percentage Error: 0.08%
+
+Processing: Weather/climat32.TXT
+Climate Zone 32:
+Supplied TCDH: 6411
+Calculated TCDH: 6516.949999999999
+Difference: 105.94999999999891
+Absolute Error: 105.94999999999891
+Percentage Error: 1.65%
+
+Processing: Weather/climat33.TXT
+Climate Zone 33:
+Supplied TCDH: 14749
+Calculated TCDH: 14985.40874999999
+Difference: 236.4087499999896
+Absolute Error: 236.4087499999896
+Percentage Error: 1.60%
+
+Processing: Weather/climat34.TXT
+Climate Zone 34:
+Supplied TCDH: 14048
+Calculated TCDH: 14063.802500000003
+Difference: 15.80250000000342
+Absolute Error: 15.80250000000342
+Percentage Error: 0.11%
+
+Processing: Weather/climat35.TXT
+Climate Zone 35:
+Supplied TCDH: 3183
+Calculated TCDH: 3196.217499999996
+Difference: 13.217499999996107
+Absolute Error: 13.217499999996107
+Percentage Error: 0.42%
+
+Processing: Weather/climat36.TXT
+Climate Zone 36:
+Supplied TCDH: 4307
+Calculated TCDH: 4281.4090000000015
+Difference: -25.59099999999853
+Absolute Error: 25.59099999999853
+Percentage Error: 0.59%
+
+Processing: Weather/climat37.TXT
+Climate Zone 37:
+Supplied TCDH: 19571
+Calculated TCDH: 19647.133749999997
+Difference: 76.13374999999724
+Absolute Error: 76.13374999999724
+Percentage Error: 0.39%
+
+Processing: Weather/climat38.TXT
+Climate Zone 38:
+Supplied TCDH: 18644
+Calculated TCDH: 18688.087499999987
+Difference: 44.0874999999869
+Absolute Error: 44.0874999999869
+Percentage Error: 0.24%
+
+Processing: Weather/climat39.TXT
+Climate Zone 39:
+Supplied TCDH: 15813
+Calculated TCDH: 15838.774125000005
+Difference: 25.77412500000537
+Absolute Error: 25.77412500000537
+Percentage Error: 0.16%
+
+Processing: Weather/climat40.TXT
+Climate Zone 40:
+Supplied TCDH: 15240
+Calculated TCDH: 15112.277750000001
+Difference: -127.7222499999989
+Absolute Error: 127.7222499999989
+Percentage Error: 0.84%
+
+Processing: Weather/climat41.TXT
+Climate Zone 41:
+Supplied TCDH: 13082
+Calculated TCDH: 13100.527624999992
+Difference: 18.52762499999153
+Absolute Error: 18.52762499999153
+Percentage Error: 0.14%
+
+Processing: Weather/climat42.TXT
+Climate Zone 42:
+Supplied TCDH: 12766
+Calculated TCDH: 12736.301875000003
+Difference: -29.698124999997162
+Absolute Error: 29.698124999997162
+Percentage Error: 0.23%
+
+Processing: Weather/climat43.TXT
+Climate Zone 43:
+Supplied TCDH: 13845
+Calculated TCDH: 13934.893999999998
+Difference: 89.89399999999841
+Absolute Error: 89.89399999999841
+Percentage Error: 0.65%
+
+Processing: Weather/climat44.TXT
+Climate Zone 44:
+Supplied TCDH: 7763
+Calculated TCDH: 7790.083333333329
+Difference: 27.083333333329392
+Absolute Error: 27.083333333329392
+Percentage Error: 0.35%
+
+Processing: Weather/climat45.TXT
+Climate Zone 45:
+Supplied TCDH: 8434
+Calculated TCDH: 8431.095041666666
+Difference: -2.9049583333344344
+Absolute Error: 2.9049583333344344
+Percentage Error: 0.03%
+
+Processing: Weather/climat46.TXT
+Climate Zone 46:
+Supplied TCDH: 7616
+Calculated TCDH: 7657.598499999999
+Difference: 41.59849999999915
+Absolute Error: 41.59849999999915
+Percentage Error: 0.55%
+
+Processing: Weather/climat47.TXT
+Climate Zone 47:
+Supplied TCDH: 4015
+Calculated TCDH: 3995.3961249999993
+Difference: -19.6038750000007
+Absolute Error: 19.6038750000007
+Percentage Error: 0.49%
+
+Processing: Weather/climat48.TXT
+Climate Zone 48:
+Supplied TCDH: 5332
+Calculated TCDH: 5335.859375
+Difference: 3.859375
+Absolute Error: 3.859375
+Percentage Error: 0.07%
+
+Processing: Weather/climat49.TXT
+Climate Zone 49:
+Supplied TCDH: 3566
+Calculated TCDH: 3578.067291666666
+Difference: 12.067291666665824
+Absolute Error: 12.067291666665824
+Percentage Error: 0.34%
+
+Processing: Weather/climat50.TXT
+Climate Zone 50:
+Supplied TCDH: 3979
+Calculated TCDH: 3957.889333333333
+Difference: -21.11066666666693
+Absolute Error: 21.11066666666693
+Percentage Error: 0.53%
+
+Processing: Weather/climat51.TXT
+Climate Zone 51:
+Supplied TCDH: 8410
+Calculated TCDH: 8396.075999999997
+Difference: -13.924000000002707
+Absolute Error: 13.924000000002707
+Percentage Error: 0.17%
+
+Processing: Weather/climat52.TXT
+Climate Zone 52:
+Supplied TCDH: 3332
+Calculated TCDH: 3352.8951249999977
+Difference: 20.895124999997734
+Absolute Error: 20.895124999997734
+Percentage Error: 0.63%
+
+Processing: Weather/climat53.TXT
+Climate Zone 53:
+Supplied TCDH: 5212
+Calculated TCDH: 5172.903249999998
+Difference: -39.09675000000243
+Absolute Error: 39.09675000000243
+Percentage Error: 0.75%
+
+Processing: Weather/climat54.TXT
+Climate Zone 54:
+Supplied TCDH: 3131
+Calculated TCDH: 3150.818583333332
+Difference: 19.818583333331844
+Absolute Error: 19.818583333331844
+Percentage Error: 0.63%
+
+Processing: Weather/climat55.TXT
+Climate Zone 55:
+Supplied TCDH: 1884
+Calculated TCDH: 1885.548333333333
+Difference: 1.5483333333329483
+Absolute Error: 1.5483333333329483
+Percentage Error: 0.08%
+
+Processing: Weather/climat56.TXT
+Climate Zone 56:
+Supplied TCDH: 1596
+Calculated TCDH: 1610.238124999999
+Difference: 14.238124999998945
+Absolute Error: 14.238124999998945
+Percentage Error: 0.89%
+
+Processing: Weather/climat57.TXT
+Climate Zone 57:
+Supplied TCDH: 2531
+Calculated TCDH: 2560.5747916666664
+Difference: 29.574791666666442
+Absolute Error: 29.574791666666442
+Percentage Error: 1.17%
+
+Processing: Weather/climat58.TXT
+Climate Zone 58:
+Supplied TCDH: 932
+Calculated TCDH: 930.1992500000001
+Difference: -1.80074999999988
+Absolute Error: 1.80074999999988
+Percentage Error: 0.19%
+
+Processing: Weather/climat59.TXT
+Climate Zone 59:
+Supplied TCDH: 1626
+Calculated TCDH: 1661.1537499999997
+Difference: 35.15374999999972
+Absolute Error: 35.15374999999972
+Percentage Error: 2.16%
+
+Processing: Weather/climat60.TXT
+Climate Zone 60:
+Supplied TCDH: 2764
+Calculated TCDH: 2765.102
+Difference: 1.1019999999998618
+Absolute Error: 1.1019999999998618
+Percentage Error: 0.04%
+
+Processing: Weather/climat61.TXT
+Climate Zone 61:
+Supplied TCDH: 2764
+Calculated TCDH: 1768.6787500000005
+Difference: -995.3212499999995
+Absolute Error: 995.3212499999995
+Percentage Error: 36.01%
+
+Processing: Weather/climat62.TXT
+Climate Zone 62:
+Supplied TCDH: 2291
+Calculated TCDH: 2294.7789999999995
+Difference: 3.7789999999995416
+Absolute Error: 3.7789999999995416
+Percentage Error: 0.16%
+
+Processing: Weather/climat63.TXT
+Climate Zone 63:
+Supplied TCDH: 1406
+Calculated TCDH: 1407.4799999999993
+Difference: 1.479999999999336
+Absolute Error: 1.479999999999336
+Percentage Error: 0.11%
+
+Processing: Weather/climat64.TXT
+Climate Zone 64:
+Supplied TCDH: 960
+Calculated TCDH: 967.1194999999998
+Difference: 7.119499999999789
+Absolute Error: 7.119499999999789
+Percentage Error: 0.74%
+
+Processing: Weather/climat65.TXT
+Climate Zone 65:
+Supplied TCDH: 1192
+Calculated TCDH: 1174.5589999999995
+Difference: -17.441000000000486
+Absolute Error: 17.441000000000486
+Percentage Error: 1.46%
+
+Processing: Weather/climat66.TXT
+Climate Zone 66:
+Supplied TCDH: 2585
+Calculated TCDH: 2601.241625
+Difference: 16.241625000000113
+Absolute Error: 16.241625000000113
+Percentage Error: 0.63%
+
+Processing: Weather/climat67.TXT
+Climate Zone 67:
+Supplied TCDH: 80
+Calculated TCDH: 80.09466666666654
+Difference: 0.09466666666654078
+Absolute Error: 0.09466666666654078
+Percentage Error: 0.12%
+
+Processing: Weather/climat68.TXT
+Climate Zone 68:
+Supplied TCDH: 456
+Calculated TCDH: 453.4825000000001
+Difference: -2.5174999999999272
+Absolute Error: 2.5174999999999272
+Percentage Error: 0.55%
+
+Processing: Weather/climat69.TXT
+Climate Zone 69:
+Supplied TCDH: 147
+Calculated TCDH: 156.84270833333326
+Difference: 9.842708333333263
+Absolute Error: 9.842708333333263
+Percentage Error: 6.70%
+
+
+Accuracy Metrics:
+Mean Absolute Error (MAE): 48.89
+Mean Squared Error (MSE): 17568.16
+Root Mean Squared Error (RMSE): 132.54
+Mean Absolute Percentage Error (MAPE): 1.29%
