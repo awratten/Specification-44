@@ -154,16 +154,43 @@ def calculate_heating_degree_hours(weather_data, base_temp=15):
     return sum((base_temp - data.dry_bulb_temperature) for data in weather_data if data.dry_bulb_temperature < base_temp)
 
 
-def calculate_cooling_degree_hours(weather_data):
-    # Calculate mean January outdoor air temperature
-    january_temps = [data.dry_bulb_temperature for data in weather_data if data.month == 1]
-    Tm = sum(january_temps) / len(january_temps) if january_temps else 0  # Avoid division by zero
+# def calculate_cooling_degree_hours(weather_data):
+#     # Calculate mean January outdoor air temperature
+#     january_temps = [data.dry_bulb_temperature for data in weather_data if data.month == 1]
+#     Tm = sum(january_temps) / len(january_temps) if january_temps else 0  # Avoid division by zero
     
-    # Compute dynamic cooling set point
-    cooling_set_point = 17.8 + 0.31 * Tm
+#     # Compute dynamic cooling set point
+#     cooling_set_point = 17.8 + 0.31 * Tm
 
-    return sum((data.dry_bulb_temperature - cooling_set_point) for data in weather_data if data.dry_bulb_temperature > cooling_set_point)
+#     return sum((data.dry_bulb_temperature - cooling_set_point) for data in weather_data if data.dry_bulb_temperature > cooling_set_point)
 
+def calculate_cooling_degree_hours(weather_data):
+    """
+    Calculate total Cooling Degree Hours (CDH) from weather data.
+    
+    Parameters:
+        weather_data (list): A list of WeatherData objects containing hourly dry bulb temperatures.
+    
+    Returns:
+        float: The total Cooling Degree Hours.
+    """
+    # Step 1: Compute mean January temperature (Tm)
+    january_temperatures = [wd.dry_bulb_temperature for wd in weather_data if wd.month == 1]
+    if not january_temperatures:
+        raise ValueError("No January temperature data available.")
+    
+    Tm = sum(january_temperatures) / len(january_temperatures)
+    
+    # Step 2: Compute cooling thermostat set point (T_set)
+    T_set = 17.8 + 0.31 * Tm
+    
+    # Step 3: Compute total Cooling Degree Hours (CDH)
+    total_cdh = 0
+    for wd in weather_data:
+        if wd.dry_bulb_temperature > T_set:
+            total_cdh += wd.dry_bulb_temperature - T_set
+    
+    return total_cdh
 
 def calculate_dehumidification_gram_hours(weather_data, humidity_threshold=15.7):
     return sum((data.absolute_moisture_content - humidity_threshold) for data in weather_data if data.absolute_moisture_content > humidity_threshold)
