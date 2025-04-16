@@ -155,24 +155,42 @@ def calculate_heating_degree_hours(weather_data, base_temp=15):
 
 
 def calculate_cooling_degree_hours(weather_data):
+    """Get the neutral temperature (desired by occupants) according to ASHRAE-55.
+
+    Note:
+        [1] de Dear, R.J. and Brager, G.S. (2002) Thermal comfort in naturally
+        ventilated buildings: Revisions to ASHRAE Standard 55.
+        Energy and Buildings 34(6), 549-61.
+
+        [2] de Dear, R.J. (1998) A global database of thermal comfort experiments.
+        ASHRAE Technical data bulletin 14(1), 15-26.
+
+    Args:
+        Tm: The prevailing outdoor temperature [C].  For the ASHRAE-55 adaptive
+            comfort model, this is typically the average monthly outdoor temperature.
+
+    Return:
+        The desired neutral temperature for the input prevailing outdoor temperature.
+    """
+
+ 
     # Calculate mean January outdoor air temperature
     january_temps = [data.dry_bulb_temperature for data in weather_data if data.month == 1]
     Tm = sum(january_temps) / len(january_temps) if january_temps else 0  # Avoid division by zero
     
-    # Compute dynamic cooling set point
-    cooling_set_point = 17.8 + 0.31 * Tm
+    # Compute thermally neutral seems to be taken from ASHRE 55 adaptive thermal comfort model
+    summer_thermally_neutral = 17.8 + 0.31 * Tm
     
     # Set limits based on HSTAR documentation
-    if cooling_set_point > 28.5:
-        cooling_set_point = 28.5
-    elif cooling_set_point < 22.5:
-        cooling_set_point = 22.5
+    if summer_thermally_neutral > 28.5:
+        summer_thermally_neutral = 28.5
+    elif summer_thermally_neutral < 22.5:
+        summer_thermally_neutral = 22.5
     
     # Round set point to 0.1
-    cooling_set_point = round(cooling_set_point, 1)
+    summer_thermally_neutral = round(summer_thermally_neutral, 1)
     
-
-    return sum((data.dry_bulb_temperature - cooling_set_point) for data in weather_data if data.dry_bulb_temperature > cooling_set_point), cooling_set_point
+    return sum((data.dry_bulb_temperature - summer_thermally_neutral) for data in weather_data if data.dry_bulb_temperature > summer_thermally_neutral), summer_thermally_neutral
 
 
 
