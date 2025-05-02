@@ -100,6 +100,25 @@ def calculate_total_load_limit(hll, cll, tr):
     return (19.3 * hll + 22.6 * cll - 8.4) / (tr + 10.74) - 15
 
 
+# way of estimating occupancy from home floor area. 
+
+import math
+
+def estimate_occupancy(area_m2):
+    if area_m2 <= 0:
+        raise ValueError("Area must be greater than 0.")
+
+    estimated = 1.525 * math.log(area_m2) - 4.533
+    clamped = max(1, min(round(estimated), 7))
+    return clamped
+
+# Example usage:
+# area = 150  # in square meters
+# occupancy = estimate_occupancy(area)
+# print(f"Estimated occupancy for {area} m²: {occupancy}")
+
+
+
 # TEST DATA - Melbourne RO
 filename = "climat21.TXT" # Melbourne RO
 results = weather_parser.analyze_weather_file(filename)
