@@ -109,11 +109,13 @@ def estimate_occupancy(area_m2):
         raise ValueError("Area must be greater than 0.")
 
     estimated = 1.525 * math.log(area_m2) - 4.533
-    clamped = max(1, min(round(estimated), 7))
-    return clamped
+
+    occupancy = round(estimated,2)
+    occupancy = max(1, min(occupancy, 7))
+    return occupancy
 
 # Example usage:
-# area = 150  # in square meters
+# area = 150  # in square meters all zones excluding garage
 # occupancy = estimate_occupancy(area)
 # print(f"Estimated occupancy for {area} m²: {occupancy}")
 
